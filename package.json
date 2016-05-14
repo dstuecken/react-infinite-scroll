@@ -6,6 +6,9 @@
   "scripts": {
     "test": "grunt lint"
   },
+  "browserify": {
+    "transform": [["babelify", { "presets": ["es2015"] }]]
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/guillaumervls/react-infinite-scroll.git"
